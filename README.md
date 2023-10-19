@@ -1,6 +1,8 @@
+> **NOTE:** This package was forked from the existing packge by [Torann](https://github.com/Torann/podcastfeed).
+
 # Podcast Generator for Laravel
 
-Generate a RSS feed for podcast for Laravel 5.
+Generate a RSS feed for podcast for Laravel.
 
 ## Installation
 
@@ -11,7 +13,7 @@ Generate a RSS feed for podcast for Laravel 5.
 From the command line run
 
 ```
-$ composer require krakero/podcastfeed
+composer require krakero/podcastfeed
 ```
 
 ### Setup
