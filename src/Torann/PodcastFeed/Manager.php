@@ -1,6 +1,6 @@
 <?php
 
-namespace Torann\PodcastFeed;
+namespace Krakero\PodcastFeed;
 
 use DateTime;
 
@@ -286,8 +286,7 @@ class Manager
             // Get the latest date media for <pubDate>
             if ($this->pubDate == null) {
                 $this->pubDate = $media->getPubDate();
-            }
-            else {
+            } else {
                 if ($this->pubDate < $media->getPubDate()) {
                     $this->pubDate = $media->getPubDate();
                 }

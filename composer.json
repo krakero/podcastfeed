@@ -1,21 +1,25 @@
 {
-    "name": "torann/podcastfeed",
-    "description": "Generate RSS feeds for podcasts in Laravel 5.",
+    "name": "krakero/podcastfeed",
+    "description": "Generate RSS feeds for podcasts in Laravel",
     "keywords": ["laravel", "podcast", "podcast generator", "rss", "xml", "feed"],
     "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "Daniel Stainback",
             "email": "daniel@lyften.com"
+        },
+        {
+            "name": "Vince Mitchell",
+            "email": "vince@krakero.com"
         }
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "~5.1"
+        "illuminate/support": ">=5.1"
     },
     "autoload": {
         "psr-4": {
-            "Torann\\PodcastFeed\\": "src/Torann/PodcastFeed/"
+            "Krakero\\PodcastFeed\\": "src/Krakero/PodcastFeed/"
         }
     },
     "extra": {

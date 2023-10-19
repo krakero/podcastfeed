@@ -1,4 +1,6 @@
-<?php namespace Torann\PodcastFeed;
+<?php
+
+namespace Krakero\PodcastFeed;
 
 use DateTime;
 use DOMDocument;

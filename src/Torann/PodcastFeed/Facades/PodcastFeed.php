@@ -1,6 +1,6 @@
 <?php
 
-namespace Torann\PodcastFeed\Facades;
+namespace Krakero\PodcastFeed\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -13,6 +13,6 @@ class PodcastFeed extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'torann.podcastfeed';
+        return 'krakero.podcastfeed';
     }
 }

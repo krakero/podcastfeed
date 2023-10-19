@@ -21,7 +21,7 @@ return [
         'email' => 'john.doe@example.com',
         'category' => 'Technology',
         'language' => 'en-us',
-        'copyright' => '2016 John Doe & Family',
+        'copyright' => '2023 John Doe & Family',
     ],
 
 ];

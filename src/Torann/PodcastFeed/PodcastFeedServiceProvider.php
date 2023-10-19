@@ -1,6 +1,6 @@
 <?php
 
-namespace Torann\PodcastFeed;
+namespace Krakero\PodcastFeed;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -32,7 +32,7 @@ class PodcastFeedServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('torann.podcastfeed', function ($app) {
+        $this->app->bind('krakero.podcastfeed', function ($app) {
             $config = $app->config->get('podcast-feed', []);
 
             return new Manager($config);
@@ -40,7 +40,8 @@ class PodcastFeedServiceProvider extends ServiceProvider
 
         // Merge config
         $this->mergeConfigFrom(
-            __DIR__ . '/../../config/podcast-feed.php', 'podcast-feed'
+            __DIR__ . '/../../config/podcast-feed.php',
+            'podcast-feed'
         );
     }
 

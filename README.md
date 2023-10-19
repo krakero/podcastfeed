@@ -4,14 +4,14 @@ Generate a RSS feed for podcast for Laravel 5.
 
 ## Installation
 
-- [Podcast on Packagist](https://packagist.org/packages/torann/podcastfeed)
-- [Podcast on GitHub](https://github.com/torann/podcastfeed)
+- [Podcast on Packagist](https://packagist.org/packages/krakero/podcastfeed)
+- [Podcast on GitHub](https://github.com/krakero/podcastfeed)
 
 
 From the command line run
 
 ```
-$ composer require torann/podcastfeed
+$ composer require krakero/podcastfeed
 ```
 
 ### Setup
@@ -22,7 +22,7 @@ Once installed you need to register the service provider with the application. O
 'providers' => [
     ...
 
-    Torann\PodcastFeed\PodcastFeedServiceProvider::class,
+    Krakero\PodcastFeed\PodcastFeedServiceProvider::class,
 
     ...
 ]
@@ -34,7 +34,7 @@ This package also comes with a facade, which provides an easy way to call the th
 'aliases' => [
     ...
 
-    'PodcastFeed' => Torann\PodcastFeed\Facades\PodcastFeed::class,
+    'PodcastFeed' => Krakero\PodcastFeed\Facades\PodcastFeed::class,
 
     ...
 ];
@@ -45,7 +45,7 @@ This package also comes with a facade, which provides an easy way to call the th
 Run this on the command line from the root of your project:
 
 ```
-$ php artisan vendor:publish --provider="Torann\PodcastFeed\PodcastFeedServiceProvider"
+$ php artisan vendor:publish --provider="Krakero\PodcastFeed\PodcastFeedServiceProvider"
 ```
 
 A configuration file will be publish to `config/podcast-feed.php`.
